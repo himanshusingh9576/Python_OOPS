@@ -16,8 +16,7 @@ class ToyotaCar(Car):
 class Fortuner(ToyotaCar):
   def __init__(self, type):
     self.type = type
-
+car1 = Car("Toyota")
 car1.type="Disel"
 car1.stop()
 print(car1.type)
-car1.singh
