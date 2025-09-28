@@ -12,11 +12,8 @@ class ToyotaCar(Car):
   def __init__(self, brand):
     self.singh = brand
   
+car1 = ToyotaCar("disel")
 
-class Fortuner(ToyotaCar):
-  def __init__(self, type):
-    self.type = type
-car1 = Car("Toyota")
-car1.type="Disel"
+
 car1.stop()
-print(car1.type)
+
